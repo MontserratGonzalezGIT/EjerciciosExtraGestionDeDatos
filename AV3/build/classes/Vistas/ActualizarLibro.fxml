@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="546.0" prefWidth="697.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controladores.ActualizarLibroController">
+   <children>
+      <Label alignment="CENTER" layoutY="14.0" prefHeight="45.0" prefWidth="697.0" text="Actualizar Libro" textAlignment="CENTER">
+         <font>
+            <Font name="Bauhaus 93" size="64.0" />
+         </font>
+      </Label>
+      <TextField fx:id="inputID" layoutX="241.0" layoutY="135.0" />
+      <TextField fx:id="inputTitulo" layoutX="241.0" layoutY="185.0" />
+      <Button fx:id="botonBuscarID" layoutX="532.0" layoutY="135.0" mnemonicParsing="false" onAction="#accionBotonBuscarID" text="Buscar" />
+      <Button fx:id="botonActualizar" layoutX="499.0" layoutY="313.0" mnemonicParsing="false" onAction="#accionBotonActualizar" prefHeight="73.0" prefWidth="117.0" text="Actualizar" />
+      <TextField fx:id="inputAutor" layoutX="241.0" layoutY="235.0" prefWidth="149.0" />
+      <TextField fx:id="inputAnyo" layoutX="241.0" layoutY="287.0" />
+      <TextField fx:id="inputEditorial" layoutX="241.0" layoutY="337.0" />
+      <TextField fx:id="inputNumPagines" layoutX="241.0" layoutY="387.0" />
+      <Label layoutX="44.0" layoutY="139.0" prefHeight="17.0" prefWidth="149.0" text="ID" />
+      <Label layoutX="44.0" layoutY="189.0" prefHeight="17.0" prefWidth="92.0" text="Título" />
+      <Label layoutX="44.0" layoutY="239.0" prefHeight="17.0" prefWidth="92.0" text="Autor" />
+      <Label layoutX="44.0" layoutY="291.0" prefHeight="17.0" prefWidth="92.0" text="Año" />
+      <Label layoutX="44.0" layoutY="341.0" prefHeight="17.0" prefWidth="92.0" text="Editorial" />
+      <Label layoutX="44.0" layoutY="391.0" prefHeight="17.0" prefWidth="170.0" text="Numero de paginas" />
+   </children>
+</AnchorPane>
