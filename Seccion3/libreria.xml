@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<libreria>
+    <libro id="1">
+        <titulo>XML Guia de Aprendizaje</titulo>
+        <autor>Elizabeth Castro</autor>
+        <anyo>1998</anyo>
+        <editorial>Bromita</editorial>
+        <numPagines>40</numPagines>
+    </libro>
+    <libro id="2">
+        <titulo>XML con ejemplos</titulo>
+        <autor>Benoit Marchal</autor>
+        <anyo>1946</anyo>
+        <editorial>Bromera</editorial>
+        <numPagines>270</numPagines>
+    </libro>
+    <libro id="3">
+        <titulo>aa</titulo>
+        <autor>aa</autor>
+        <anyo>aa</anyo>
+        <editorial>aa</editorial>
+        <numPagines>aa</numPagines>
+    </libro>
+</libreria>
