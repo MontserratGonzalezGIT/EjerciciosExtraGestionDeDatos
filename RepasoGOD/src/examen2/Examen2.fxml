@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="470.0" prefWidth="892.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="examen2.Examen2Controller">
+   <children>
+      <TextArea fx:id="textArea" layoutX="50.0" layoutY="65.0" prefHeight="356.0" prefWidth="582.0" wrapText="true" />
+      <TextField fx:id="inputFile" layoutX="108.0" layoutY="27.0" text="C:\holamundo\lore.txt" />
+      <Label layoutX="50.0" layoutY="31.0" text="Archivo:" />
+      <Label layoutX="644.0" layoutY="96.0" text="Ocurrencias:" />
+      <Label fx:id="labelPalabra" layoutX="643.0" layoutY="146.0" />
+      <Label fx:id="labelA" layoutX="644.0" layoutY="190.0" text="A:" />
+      <Label fx:id="labelE" layoutX="645.0" layoutY="223.0" text="E:" />
+      <Label fx:id="labelI" layoutX="646.0" layoutY="259.0" text="I:" />
+      <Label fx:id="labelO" layoutX="643.0" layoutY="287.0" text="O:" />
+      <Label fx:id="labelU" layoutX="643.0" layoutY="317.0" text="U:" />
+      <Button layoutX="281.0" layoutY="27.0" mnemonicParsing="false" onAction="#actionLeerArchivo" prefHeight="0.0" prefWidth="39.0" text="Leer" />
+      <TextField fx:id="inputNewFile" layoutX="458.0" layoutY="27.0" text="C:\holamundo\lore1.txt" />
+      <Label layoutX="365.0" layoutY="31.0" text="Nuevo Archivo:" />
+      <Button layoutX="631.0" layoutY="27.0" mnemonicParsing="false" onAction="#actionEscribirArchivo" prefHeight="25.0" prefWidth="60.0" text="Escribir" />
+      <TextField fx:id="inputPalabra" layoutX="643.0" layoutY="394.0" />
+      <Label layoutX="643.0" layoutY="370.0" prefHeight="17.0" prefWidth="114.0" text="Palabra a buscar:" />
+      <Button layoutX="810.0" layoutY="394.0" mnemonicParsing="false" onAction="#actionBotonBuscar" prefHeight="25.0" prefWidth="60.0" text="Buscar" />
+   </children>
+</AnchorPane>

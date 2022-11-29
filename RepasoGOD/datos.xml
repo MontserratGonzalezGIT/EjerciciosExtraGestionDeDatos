@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<incidencias>
+    <incidencia id="1">
+        <nombre>Carlos</nombre>
+        <apellidos>Palomares</apellidos>
+        <inci>Asesinato en masa en centro educativo</inci>
+    </incidencia>
+</incidencias>

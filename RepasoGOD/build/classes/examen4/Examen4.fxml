@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="466.0" prefWidth="494.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="examen4.Examen4Controller">
+   <children>
+      <Button layoutX="322.0" layoutY="45.0" mnemonicParsing="false" onAction="#accionButtonConf" text="Configuración" />
+      <TextField fx:id="idText" layoutX="75.0" layoutY="87.0" />
+      <Label layoutX="75.0" layoutY="70.0" text="ID:" />
+      <TextField fx:id="ciudadText" layoutX="75.0" layoutY="143.0" />
+      <Label layoutX="75.0" layoutY="126.0" text="Ciudad:" />
+      <TextField fx:id="codigoText" layoutX="75.0" layoutY="204.0" />
+      <Label layoutX="75.0" layoutY="187.0" text="Codigo:" />
+      <TextField fx:id="distritoText" layoutX="75.0" layoutY="260.0" />
+      <Label layoutX="75.0" layoutY="243.0" text="Distrito:" />
+      <Button layoutX="322.0" layoutY="307.0" mnemonicParsing="false" onAction="#accionButtonAtras" text="&lt;" />
+      <Button layoutX="388.0" layoutY="307.0" mnemonicParsing="false" onAction="#accionButtonAdelante" text="&gt;" />
+      <TextField fx:id="poblacionText" layoutX="75.0" layoutY="316.0" />
+      <Label layoutX="75.0" layoutY="299.0" text="Población:" />
+      <Button layoutX="328.0" layoutY="87.0" mnemonicParsing="false" onAction="#accionButtonRaw" text="Raw Querys" />
+   </children>
+</AnchorPane>
